@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<title>Formulário</title>
+</head>
+<body>
+	<div id="all">
+	<form method="" action="">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome">
+		<br></br>
+
+		<label for="senha">Senha:</label>
+		<input type="password" id="senha" name="nosenhame">
+		<br></br>
+
+		<label for="dt_nasc">Data de Nascimento:</label>
+		<input type="date" id="dt_nasc" name="dt_nasc">
+		<br></br>
+
+		<label for="hr_nasc">Hora de Nascimento:</label>
+		<input type="time" id="hr_nasc" name="hr_nasc">
+		<br></br>
+
+		<label for="idade">Idade:</label>
+		<input type="number" id="idade" name="idade" value="18" min="18" max="35">
+		<br></br>
+
+		<label for="nota">Nota para página:</label>
+		<input type="range" id="nota" name="nota" value="0" min="0" max="10">
+		<br></br>
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="nomemaile" name="nemailome">
+		<br></br>
+<fieldset>
+		<legend>Áreas de Interesse</legend>
+		<label>
+			<input type="checkbox" name="esportes" value="esportes" checked>
+			Esportes
+		</label>
+		<label>
+			<input type="checkbox" name="cinema" value="cinema">
+			Cinema
+		</label>
+		<label>
+			<input type="checkbox" name="viagens" value="viagens">
+			Viagens
+		</label>
+		<label>
+			<input type="checkbox" name="comidas" value="comidas">
+			Comidas
+		</label>
+		<br></br>
+</fieldset>
+<fieldset>
+		<legend>Sexo</legend>
+
+		<label>
+			<input type="radio" name="sexo" value="masculino" >
+			masculino
+		</label>
+		<label>
+			<input type="radio" name="sexo" value="feminino">
+			feminino
+		</label>
+</fieldset>
+	<br>
+
+		<button type="submit">Enviar</button>
+	</form>
+	</div>
+</body>
+</html>
